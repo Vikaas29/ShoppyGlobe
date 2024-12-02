@@ -1,9 +1,11 @@
 import { useDispatch } from "react-redux";
 import { addItem } from "../utils/CartSlice";
+import { useNavigate } from "react-router-dom";
 
 function DetailPage(prop){
     const id=prop.id;
     const dispatch=useDispatch();
+    const navigate=useNavigate()
 
     function addToCart(){
         dispatch(addItem(`${prop.data.id}`))
@@ -22,7 +24,10 @@ function DetailPage(prop){
             <div className=" text-green-700">Price: $${prop.data.products[id-1].price}</div>
             <div className=" text-orange-700">Rating: {prop.data.products[id-1].rating}*</div>
             
-            <button className="border border-black rounded-md p-[2px] hover:bg-green-600 hover:text-white" onClick={addToCart}>Add to Cart</button>
+            <div>
+            <button className="border border-black rounded-md p-[2px] hover:bg-green-600 hover:text-white m-[10px]" onClick={addToCart}>Add to Cart</button>
+            <button className="border border-black rounded-md p-[2px] hover:bg-cyan-600 hover:text-white m-[10px]" onClick={()=>{navigate("/products")}}>Back to Shop</button>
+            </div>
         </div>
     </main>
         </>)
