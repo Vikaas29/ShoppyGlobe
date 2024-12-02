@@ -1,0 +1,15 @@
+.roundRotate{
+    animation: rotate 2s linear;
+}
+@keyframes rotate {
+    0%{
+        rotate: 0deg;
+    }
+    50%{
+        rotate: 180deg;
+    }
+    100%{
+        rotate: 360deg;
+    }
+    
+}
