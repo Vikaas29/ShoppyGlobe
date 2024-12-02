@@ -1,6 +1,8 @@
-ABOUT SHOPPYGLOBE
+ABOUT SHOPPYGLOBE :
 
-                This Shopping Website, built with React, Redux, and Tailwind CSS, showcases my expertise in modern web development. It includes features like product listing, adding/removing items from the cart, dynamic cart updates, and a seamless checkout process. Tailwind CSS enhances the responsive, visually appealing user interface, while efficient state management ensures smooth functionality.
+            This Shopping Website, built with React, Redux, and Tailwind CSS, showcases my expertise in modern web development.
+            It includes features like product listing, adding/removing items from the cart, dynamic cart updates, and a seamless checkout process.
+            Tailwind CSS enhances the responsive, visually appealing user interface, while efficient state management ensures smooth functionality.
 
 
 
