@@ -17,6 +17,6 @@ HOW TO RUN:
             Now you can easily run the project in the local server using -- npm run dev
 
 
-GitHub Repo: 
+GitHub Repo: https://github.com/Vikaas29/ShoppyGlobe
 
-Hosted At : 
+Hosted At : https://shoppy-globe-eight.vercel.app/

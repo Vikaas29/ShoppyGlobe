@@ -33,8 +33,8 @@ function Checkout(prop){
         return(<>
         <div className=" w-[100%] flex flex-col justify-center items-center my-[30vh] ">
             <p className="text-2xl border border-black p-[5px] rounded-md  m-[10px]">Your total is : $${total}</p>
-            <button className="tex-2xl border border-black p-[5px] rounded-md m-[10px]">PAYMENT GATEWAY</button>
-            <button className="tex-2xl border border-black p-[5px] rounded-md m-[10px]" onClick={()=>{navigate("/products")}}>CONTINUE SHOPPING</button>
+            <button className="tex-2xl border border-black p-[5px] rounded-md m-[10px] transition duration-[.1s] hover:bg-red-700 hover:text-white">PAYMENT GATEWAY</button>
+            <button className="tex-2xl border border-black p-[5px] rounded-md m-[10px] transition duration-[.1s] hover:bg-green-700 hover:text-white" onClick={()=>{navigate("/products")}}>CONTINUE SHOPPING</button>
         </div>
         </>)
     }
