@@ -8,7 +8,7 @@ function DetailPage(prop){
     const navigate=useNavigate()
 
     function addToCart(){
-        dispatch(addItem(`${prop.data.id}`))
+        dispatch(addItem(`${id}`))
     }
 
     // console.log(prop.data)
