@@ -26,6 +26,7 @@ function Cart(){
         
         if(filter.length>0)
         {return (<>
+        <h2 className="text-4xl text-center">Cart Items</h2>
         <div className="w-[100%] flex justify-end">
             <button className="tex-2xl border border-black p-[5px] rounded-md w-[200px] m-[10px] transition duration-[.5s] hover:bg-orange-700 hover:text-white" onClick={()=>{navigate("/checkout")}}>CHECKOUT</button>
             </div>
