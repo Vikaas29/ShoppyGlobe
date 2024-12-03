@@ -1,6 +1,7 @@
 import { useDispatch } from "react-redux";
 import { addItem,removeItem,deleteItem } from "../utils/CartSlice";
 
+//component of each individual cart item
 function CartProduct(prop){
     const dispatch=useDispatch();
 

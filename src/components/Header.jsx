@@ -2,13 +2,15 @@ import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { useSelector } from "react-redux";
 
+//header section component
 function Header(){
     const cart=useSelector((store)=>store.cart.items);
     // console.log("cart",Object.keys(cart).length);
     const navigate=useNavigate();
 
     const[drop,setDrop]=useState("hidden")
-
+    
+    // this function is to set the class value for dropdown menu- hidding or displaying it accordingly
     function setDropDown(){
         if(drop=="hidden")setDrop("block");
         else setDrop("hidden")

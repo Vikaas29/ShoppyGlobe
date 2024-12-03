@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 
+//custom hook to fetch data on load of product page
 export function useFetch(){
     const [data,setData]=useState(null);
     const [error,setError]=useState(null);

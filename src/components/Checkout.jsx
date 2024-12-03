@@ -3,6 +3,7 @@ import { useState } from "react";
 import { useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 
+// component for the checkout Page
 function Checkout(prop){
 
     const navigate=useNavigate();

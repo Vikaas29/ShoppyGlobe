@@ -1,6 +1,7 @@
-import { useState } from "react";
 import { useFetch } from "../utils/useFetch";
 import Product from "./Product";
+
+// this component is to call manage and display the fetched product list
 function ProductSection(prop){
 const {data,loading,error}=useFetch();
 if(loading){

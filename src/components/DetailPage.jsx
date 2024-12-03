@@ -2,6 +2,8 @@ import { useDispatch } from "react-redux";
 import { addItem } from "../utils/CartSlice";
 import { useNavigate } from "react-router-dom";
 
+
+// component for detail page for a individual item
 function DetailPage(prop){
     const id=prop.id;
     const dispatch=useDispatch();

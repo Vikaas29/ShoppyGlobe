@@ -1,5 +1,6 @@
 import { useNavigate } from "react-router-dom";
 
+// this component holds the front page displaying the front page image and buttons
 function HomePageBody(){
     const navigate=useNavigate();
     return (<main className="p-[30px] flex flex-col justify-center items-center w-[100%] gap-10 text-center">

@@ -5,7 +5,6 @@ import App from './App.jsx'
 import { createBrowserRouter } from 'react-router-dom'
 import { RouterProvider } from 'react-router-dom'
 import ProductDetails from './components/ProductDetails.jsx'
-import Product from './components/Product.jsx'
 // import ProductsPage from 
 import HomePage from './components/HomePage.jsx'
 // import Cart from './components/Cart.jsx'
@@ -17,6 +16,8 @@ let ProductPage= lazy(()=> import('./components/ProductsPage.jsx') );
 let Cart= lazy(()=> import('./components/Cart.jsx') );
 let Checkout= lazy(()=> import('./components/Checkout.jsx') );
 
+
+// approuter for all individual url routes
 const appRouter=createBrowserRouter([
   {path:"/",
     element: <App/>,

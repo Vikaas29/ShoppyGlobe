@@ -10,6 +10,7 @@ function Cart(){
     const cart=useSelector((store)=>store.cart.items);
     // console.log(cart);
     const [data,setData]=useState(null);
+    //function to fetch data
     useEffect(()=>{
         async function retrieve(){
             const response=await fetch("https://dummyjson.com/products");

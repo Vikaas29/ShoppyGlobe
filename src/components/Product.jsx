@@ -2,13 +2,14 @@ import { useNavigate } from "react-router-dom";
 import { useDispatch } from "react-redux";
 import { addItem,removeItem } from "../utils/CartSlice";
 
+// this component holds the each product from the products page
 function Product(prop){
     const navigate=useNavigate();
     // console.log("prop",prop)
 
     const dispatch=useDispatch();
     
-
+    // funtion to add items to cart using cart slice reducer
     function addToCart(){
         dispatch(addItem(`${prop.data.id}`))
     }

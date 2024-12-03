@@ -1,10 +1,10 @@
-import Header from "./Header";
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import DetailPage from "./DetailPage";
-import { useNavigate } from "react-router-dom";
 import ErrorPage from "./ErrorPage";
 
+
+// this component is to manage the main display product detail page 
 function ProductDetails(){
     const params=useParams();
     // console.log(params)

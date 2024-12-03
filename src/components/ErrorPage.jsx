@@ -1,7 +1,11 @@
-import Header from "./Header";
+
 import { useNavigate } from "react-router-dom";
+
+// this component is made to be loaded in case of a wrong url of any error entry
 function ErrorPage(){
     const navigate=useNavigate()
+
+    
     return (<>
     <main className="flex flex-col justify-center items-center gap-[50px] m-[50px]" >
         <p className="text-4xl">404......Page Not Found</p>
